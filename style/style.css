@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* 헤더 */
+header {}
+/* 헤더 광고 */
+header .ad_bg {
+    background-color: aqua;
+    height: 36px;
+}
+header .ad_bg .ad {background-color: aquamarine;}
+header .ad_bg .ad p {
+    text-align: center;
+    line-height: 36px;
+}
+/* 헤더 상단 */
+header .h_top {
+    background-color: bisque;
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto ;
+}
+header .h_top h1 {
+    padding: 35px 0;
+    text-align: center;
+}
+header .h_top h1 img {}
+header .h_top .user_info {background-color: blue;}
+header .h_top .user_info ul {}
+header .h_top .user_info ul li {
+    margin-right: 20px;
+}
+header .h_top .user_info ul li:last-child {
+    margin-right: 0px;
+}
+header .h_top .user_info ul li a {
+    font-size: 0.833rem;
+}
+header .h_top .user_info ul li span {}
+header .h_top .user_info ul li img {}
+/* 헤더 하단 */
+header nav {background-color: blueviolet;}
+header nav .h_btm {
+    background-color: cadetblue;
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto ;
+}
+header nav .h_btm li {}
+header nav .h_btm li a {}
+/* 사이드바 */
+aside {background-color: burlywood;}
+aside a {}
+aside a img {}
+/* 메인 */
+main {background-color: chocolate;}
+/* 메인 베너 */
+main .m_b_bg {background-color: coral;}
+main .m_b_bg a {}
+main .m_b_bg a img {}
+/* 가게 정보 */
+main #shop_info {
+    background-color: cornflowerblue;
+    width: 1300px;
+    margin: 0 auto;
+}
+main .shop_info a {}
+main .shop_info a img {}
+/* 판매 제품 */
+main #selling {
+    background-color: crimson;
+    width: 1300px;
+    margin: 0 auto;
+}
+main #selling h2 {}
+main #selling ul {}
+/* 굿즈 1~6번 */
+main #selling ul .goods {background-color: darkblue;}
+main #selling ul .goods a {}
+main #selling ul .goods a img {}
+main #selling ul .goods h3 {}
+main #selling ul .goods p {}
+main #selling ul .goods p em {}
+main #selling ul .goods p span {}
+main #selling ul .goods span {}
+main #selling ul .goods .sub_contents {background-color: darkcyan;}
+main #selling ul .goods .sub_contents p {}
+main #selling ul .goods .point {background-color: darkgoldenrod;}
+main #selling ul .goods .point p {}
+/* 하단 신발 배경 */
+main .main_btm_bg {background-color: darkorchid;}
+main .main_btm_bg img {}
+main .main_btm_bg #main_btm {background-color: darkorange;}
+main .main_btm_bg #main_btm h3 {}
+main .main_btm_bg #main_btm p {}
+/* footer */
+footer {
+    background-color: deepskyblue;
+    width: 1300px;
+    height: 190px;
+    margin: 0 auto ;
+}
+footer .fnb {background-color: greenyellow;}
+footer .fnb li {}
+footer .fnb li a {}
+footer address {}
